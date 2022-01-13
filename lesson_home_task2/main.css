@@ -1,0 +1,50 @@
+.leaf{
+    margin: 40px;
+    overflow: auto;
+    background: #6cba68;
+    width: 200px;
+    height: 70px;
+    box-shadow: black 12px 12px 0px 0px;
+}
+.sand{
+    margin: 40px;
+    overflow: auto;
+    background: #dcdc64;
+    width: 200px;
+    height: 70px;
+    box-shadow: black 12px 12px 5px 0px;
+}
+.lightning{
+    margin: 40px;
+    overflow: auto;
+    background: #6580e8;
+    width: 200px;
+    height: 70px;
+    box-shadow: black 12px 12px 5px 5px;
+}
+.rain{
+    margin: 40px;
+    overflow: auto;
+    background: #693469;
+    width: 200px;
+    height: 70px;
+    box-shadow: silver 12px 12px 5px 5px;
+}
+.stone{
+    border-radius: 10px;
+    margin: 40px;
+    overflow: auto;
+    background: #62544d;
+    width: 200px;
+    height: 70px;
+    box-shadow: black 12px 12px 5px 5px;
+}
+.frog{
+    border-radius: 10px;
+    margin: 40px;
+    overflow: auto;
+    background: green;
+    width: 200px;
+    height: 70px;
+    box-shadow: silver 20px 12px 5px 5px;
+}
