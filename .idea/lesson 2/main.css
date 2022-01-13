@@ -1,0 +1,25 @@
+.target {
+    /*height: 100px;*/
+    width: 400px;
+    /*min-height: 400;*/
+    overflow: auto;
+    background: silver;
+
+
+    box-sizing: border-box;
+    /*padding :30px;*/
+    /*padding :10px 20px;*/
+    padding-left: 20px;
+
+    border-bottom: 10px solid #5b2a08;
+    /*border-radius: 30px;*/
+    border-top-left-radius: 50px;
+
+    box-shadow: #315ae7 10px 10px 10px 10px;
+    transition: 3s;
+}
+.target:hover {
+
+    height: 300px;
+    transition: 300ms;
+}
