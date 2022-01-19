@@ -1,0 +1,48 @@
+#container {
+    /*background: silver;*/
+    padding: 10px;
+    /*solid-color:red;*/
+    /*justify-content: center;*/
+}
+.header{
+    height: 100px;
+    width: 450px;
+    background: cornflowerblue;
+    margin: 10px;
+    text-align: center;
+}
+.footer{
+    height: 100px;
+    width: 450px;
+    background: cornflowerblue;
+    margin: 10px;
+    text-align: center;
+}
+.help1{
+    width: 450px;
+    display: flex;
+    padding: 10px;
+    /*background: #6cba68;*/
+}
+.menu{
+    height: 300px;
+    width: 100px;
+    background: yellow;
+    padding: 10px;
+
+}
+.post1{
+    text-align: center;
+    margin: 10px;
+    height: 130px;
+    width: 300px;
+    background: darkred;
+}
+.help2
+{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    /*background: silver;*/
+
+}
