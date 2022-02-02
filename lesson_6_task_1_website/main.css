@@ -6,22 +6,25 @@
 .root{
     --black-color: black
 }
-.top_bar{
-    background-color:silver;
-    height: 83px;
+.header{
+    /*background-color: silver;*/
     width: 1440px;
+}
+.top_bar{
+    /*background-color:silver;*/
+    height: 83px;
     display: flex;
     justify-content: space-between;
 }
 
 .header_logo{
-    background-color: #dcdc64;
+    /*background-color: #dcdc64;*/
     margin-left: 36px;
     margin-top: 15.99px;
     width: 241px;
 }
 .nav_menu{
-    background-color: #6cba68;
+    /*background-color: #6cba68;*/
     width: 618px;
     display: flex;
     align-items: center;
@@ -32,6 +35,7 @@
     width: 372px;
     display: flex;
     align-items: center;
+    /*margin-right: 32px;*/
 }
 .nav_menu_item a{
     font-size: 16px;
@@ -39,3 +43,124 @@
     color: var(--black-color);
     text-decoration: none;
 }
+.nav_btn_black{
+    box-sizing: border-box;
+    width: 163px;
+    height: 54px;
+    border-radius: 4px;
+    background-color: #0B2330;
+    color: #ffffff;
+    cursor: pointer;
+}
+.nav_btn_white{
+    width: 163px;
+    height: 54px;
+    border-radius: 4px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.midle_bar{
+    /*background-color: silver;*/
+    width: 1440px;
+    height: 734px;
+    box-sizing: border-box;
+
+}
+.midle_bar_left{
+    box-sizing: border-box;
+    /*background-color: silver;*/
+    width: 436px;
+    margin-left: 147px;
+}
+.yellow{
+    position: absolute;
+    right: 0;
+}
+.girls {
+    position: absolute;
+    right: 0;
+    margin-top: 172px;
+    margin-right: 102px;
+}
+.text1{
+    height: 165px;
+    margin-top: 154px;
+}
+.text2{
+    height: 96px;
+}
+.btn_middle_bar_left{
+    grid-column-gap: 22px;
+    width: 372px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+.white_btn{
+width: 163px;
+height: 54px;
+border-radius: 4px;
+background-color: white;
+color: black;
+cursor: pointer;
+border: 2px solid black;
+}
+.yellow_btn {
+width: 163px;
+height: 54px;
+border-radius: 4px;
+background-color: #f9c602;
+color: black;
+cursor: pointer;
+}
+.edit_btn{
+    margin:15px 29px;
+}
+.tools3{
+    margin-top: 192px;
+}
+.text_tools2{
+background-color: silver;
+    width: 547px;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img_tools2{
+    background-color: silver;
+    width: 1092px;
+    height: 200px;
+    margin-top: 80px;
+    margin-right: 174px;
+    margin-left: 174px;
+    column-count: 5;
+    grid-column-gap: 82px;
+}
+.blue_font{
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-top: 100px;
+    background-color: #52cebc;
+    width: 1376px;
+    height: 494px;
+    display: flex;
+}
+.ride_blue{
+    margin-top: 56px;
+    margin-bottom: 56px;
+}
+.blue_text1{
+    background-color:silver;
+    margin-left: 20px;
+    margin-top: 114px;
+    height: 120px;
+    width: 557px;
+}
+.blue_text2{
+
+}
+
+
