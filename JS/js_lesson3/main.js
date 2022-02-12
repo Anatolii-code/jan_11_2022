@@ -110,7 +110,7 @@
 //     i++
 // }
 
-// //16)
+// // dod)
 let arrVoid =  [];
 arrVoid[0] = true;
 arrVoid[1] = 1;
@@ -153,7 +153,9 @@ arrVoid[9] = false;
 //         document.write(i);
 //     }
 // }
-// //21  Neparni
+
+// //21 Neparni
+
 // for(let i = 0; i<100; i++) {
 //     if (i%2===0) {
 //     }
