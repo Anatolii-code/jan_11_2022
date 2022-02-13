@@ -65,5 +65,11 @@ arraycreator(1,3,4,true,434,"srara");
 let users = [
     {id: 1, name: 'yura', age:22 },
     {id: 2, name: 'roma', age:24 },
-    {id: 3, name: 'jane', age:25 },
+    {id: 3, name: 'jane', age:25 }
 ]
+    function newarray(arr) {
+        for (const arrElement of arr) {
+            document.write(`<div>${arrElement.id}.${arrElement.name} - ${arrElement.age}</div>`);
+        }
+    }
+    newarray(users);
