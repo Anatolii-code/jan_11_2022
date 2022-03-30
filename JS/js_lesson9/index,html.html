@@ -1,0 +1,37 @@
+<!--Все робити за допомоги js.-->
+<!-- - створити блок,-->
+<!-- - додати йому класи wrap, collapse, alpha, beta-->
+<!-- - додати стилі(довільні значення) : колір фону, колір тексту, розмір тексту-->
+<!-- - додати цей блок в body.-->
+<!-- - клонувати його повністю, та додати клон в body.-->
+<!doctype html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+</head>
+<body>
+<div class="target"></div>
+<script>
+
+    let h2   = document.createElement('h2')
+    zminna.innerText = 'lesson 9 ';
+
+    document.body.append(h2);
+
+
+    let targets =  document.getElementsByClassName('target');
+    let target = targets[0];
+
+    let cloneNodeH2 = h2.cloneNode(true)
+    target.append(cloneNodeH2);
+
+
+</script>
+
+</body>
+</html>
